@@ -1,10 +1,7 @@
 import React from 'react';
-import logo from './Images/Cradle of Filth';
 
-console.log(logo);
-
-function Header() {
-    return <img src={logo} alt="logo" />;
+function CradleOfFilth() {
+    return <img src={require('../Images/Filth.jpg').default} alt='band'  height={500} width={500}/>
 }
 
-export default Header
+export default CradleOfFilth
