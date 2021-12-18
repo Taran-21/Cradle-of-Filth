@@ -1,10 +1,10 @@
-import React from 'react' 
+import '../App.css'
 
 const Cradle = () =>  {
     return (
             <>
-                <div>
-                    Cradle of Filth Fan Page
+                <div className='Writing'>
+                   <h1><u>Cradle of Filth Fan Page</u></h1> 
                 </div>
             </>
     )
