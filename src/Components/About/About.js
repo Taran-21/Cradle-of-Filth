@@ -1,9 +1,10 @@
-import React from 'react';
+import '../../App.css'
 
 function About() {
   return (
-    <div>
-        <h1>About the Band</h1>
+    <div className='Writing'>
+        <h1><u>About the Band</u></h1>
+
         <p>Cradle of Filth are an English extreme metal band, 
             formed in Suffolk, England in 1991. The band's musical 
             style evolved originally from black metal to a cleaner 
