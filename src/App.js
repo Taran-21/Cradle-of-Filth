@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import { CradleOfFilth } from "./Components/CradleOfFilth";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
-import { Albums } from "./Components/Albums/Albums";
+import Albums  from "./Components/Albums/Albums";
 
 function App() {
   return (

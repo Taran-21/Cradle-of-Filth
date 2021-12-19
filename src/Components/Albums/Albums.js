@@ -1,5 +1,5 @@
-export const Albums = () => {
-  const firstAlbum = () => {
+const Albums = () => {
+  const FirstAlbum = () => {
     return (
       <div>
         <div>
@@ -33,7 +33,7 @@ export const Albums = () => {
     );
   };
 
-  const secondAlbum = () => {
+  const SecondAlbum = () => {
     return (
       <div>
         <div>
@@ -76,13 +76,13 @@ export const Albums = () => {
     );
   };
 
-  const thirdAlbum = () => {
+  const ThirdAlbum = () => {
     return (
       <div>
         <div>
           <img
             className="Midian"
-            src={require("../Images/Midian.jpg").default}
+            src={require("./Images/Midian.jpg").default}
             alt="Midian album"
             height={150}
             width={150}
@@ -110,9 +110,12 @@ export const Albums = () => {
   };
 
   return (
-      {firstAlbum}
-      {secondAlbum}
-      {thirdAlbum}
-      
-  )
+    <div>
+      <FirstAlbum />
+      <SecondAlbum />
+      <ThirdAlbum />
+    </div>
+  );
 };
+
+export default Albums;
